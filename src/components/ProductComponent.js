@@ -10,7 +10,7 @@ const ProductComponent = () => {
       <div className="four wide column" key={id}>
         <Link to={`/product/${id}`}>
           <div className="ui link cards">
-            <div className="card">
+            <div className="card" raised="true">
               <div className="image">
                 <img src={image} alt={title} />
               </div>

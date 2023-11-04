@@ -1,3 +1,20 @@
+body { 
+    margin: 1rem;
+} 
+
 .app {
     margin: 1rem;
+}
+
+.ui.grid {
+    margin: 0 auto !important;
+}
+
+.ui.grid.container {
+    width: 90% !important;
+}
+
+.ui.card>.image>img, .ui.cards>.card>.image>img {
+    background-size: contain !important;
+    height: 300px !important;
 }
